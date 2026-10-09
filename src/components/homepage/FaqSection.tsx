@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "Do i need to wear any special devices?",
+    question: "Do I need to wear any special devices?",
     answer:
-      "No, Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi. ",
+      "No, you don't need any special devices. You can track your sleep by logging your sleep and wake-up times directly in NakTidor.",
   },
   {
     question: "Is my sleep data private and secure?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi.",
+      "Your sleep data is associated with your account so you can access your personal sleep records. NakTidor uses Supabase for authentication and data storage, with appropriate security policies needed to protect your information.",
   },
   {
-    question: "Can i use RestMetrics with my smartwatch?",
+    question: "Can I use NakTidor with my smartwatch?",
     answer:
-      "Yes, Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi.",
+      "NakTidor currently allows you to record and monitor your sleep manually. Automatic smartwatch integration may be available in the future.",
   },
   {
     question: "Is there a free version available?",
     answer:
-      "Yes, Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi.",
+      "Yes! NakTidor lets you record your sleep and review your sleep history without needing a paid subscription.",
   },
 ];
 
