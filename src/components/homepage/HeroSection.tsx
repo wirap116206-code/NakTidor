@@ -1,5 +1,4 @@
-import React from "react";
-import Navbar from "./Navbar";
+
 import Link from "next/link";
 
 export default function HeroSection() {
@@ -12,7 +11,7 @@ export default function HeroSection() {
           "linear-gradient(to bottom right, rgba(15,23,42,0.8),rgba(99,102,241,0.3)), url('/images/hero-bg.jpg')",
       }}
     >
-      <Navbar />
+      
 
       <div className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-4.5rem)] pt-18">
         <div className="text-center text-white px-6 max-w-4xl">

@@ -7,16 +7,19 @@ interface HeaderProps {
 
 export default function Header({ setShowAddForm }: HeaderProps) {
   return (
-    <header className="bg-slate-800 border-b border-slate-700 px-6 py-4">
-      <div className="flex items-center justify-between">
+    <header className="sticky top-0 z-40 border-b border-slate-700 bg-slate-800 px-4 py-3 sm:px-6 sm:py-4">
+      <div className="flex items-center justify-between gap-3">
         <Logo />
-        <div className="flex gap-3 items-center">
+
+        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <LogoutButton />
+
           <button
             onClick={() => setShowAddForm(true)}
-            className="bg-fuchsia-700 hover:bg-fuchsia-800 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors cursor-pointer"
+            className="flex items-center justify-center gap-1.5 whitespace-nowrap rounded-lg bg-fuchsia-700 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-fuchsia-800 active:scale-95 sm:gap-2 sm:px-4 sm:py-2.5 sm:text-base"
           >
-            Add Sleep Record
+            <span className="hidden sm:inline">Add Sleep Record</span>
+            <span className="sm:hidden">+ Add Record</span>
           </button>
         </div>
       </div>
